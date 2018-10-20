@@ -4,6 +4,7 @@
 <!-- Committdate: <COMMITTERDATE> -->
 <!-- Commithash: <COMMITHASH> -->
 <!-- Commithash: <COMMITHASH> -->
+<!-- Commithash: <COMMITHASH> -->
 <configuration>
     <property name="LOG_PATH" value="F:/Local Disk E_12720131948/Development/camel/Spring Boot"/>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
