@@ -27,7 +27,7 @@
         </encoder>
     </appender>
     <!-- Send logs to both console and file audit -->
-    <logger name="com.souciance.boot.senderemail" level="info" additivity="false">
+    <logger name="com.souciance123.boot.senderemail" level="info" additivity="false">
         <appender-ref ref="FILE"/>
         <appender-ref ref="STDOUT"/>
     </logger>
