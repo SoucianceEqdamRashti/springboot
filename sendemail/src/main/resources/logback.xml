@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--$Author -->
-<!--$LastChangedDate -->
-<!--$LastChangedMessage -->
-<!--$Rev -->
+<!-- author -->
+<!-- timestamp -->
+<!-- commitmsg -->
+<!-- rev -->
 <configuration>
     <property name="LOG_PATH" value="F:/Local Disk E_12720131948/Development/camel/Spring Boot"/>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
