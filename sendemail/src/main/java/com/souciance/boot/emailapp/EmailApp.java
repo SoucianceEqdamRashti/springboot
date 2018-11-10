@@ -1,4 +1,4 @@
-package com.souciance.boot.emailapp.controller;
+package com.souciance.boot.emailapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
