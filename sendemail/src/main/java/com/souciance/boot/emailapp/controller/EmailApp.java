@@ -1,14 +1,14 @@
-package com.souciance.boot.sendemail;
+package com.souciance.boot.emailapp.controller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SendEmailApplication {
+public class EmailApp {
     public static void main(String[] args) {
 
         //start the spring boot app
-		SpringApplication.run(SendEmailApplication.class, args);
+		SpringApplication.run(EmailApp.class, args);
 
 	}
 }
