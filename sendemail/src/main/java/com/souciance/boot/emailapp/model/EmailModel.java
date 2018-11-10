@@ -1,4 +1,4 @@
-package com.souciance.boot.emailapp.controller.model;
+package com.souciance.boot.emailapp.model;
 
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;

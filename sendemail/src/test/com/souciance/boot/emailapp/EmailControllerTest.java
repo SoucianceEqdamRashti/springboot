@@ -1,8 +1,8 @@
-package com.souciance.boot.emailapp.controller;
+package com.souciance.boot.emailapp;
 
-import com.souciance.boot.emailapp.controller.controller.EmailController;
-import com.souciance.boot.emailapp.controller.model.EmailModel;
-import com.souciance.boot.emailapp.controller.service.EmailService;
+import com.souciance.boot.emailapp.controller.EmailController;
+import com.souciance.boot.emailapp.model.EmailModel;
+import com.souciance.boot.emailapp.service.EmailService;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;

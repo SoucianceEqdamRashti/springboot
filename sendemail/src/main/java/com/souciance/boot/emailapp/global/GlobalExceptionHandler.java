@@ -1,4 +1,4 @@
-package com.souciance.boot.emailapp.controller.global;
+package com.souciance.boot.emailapp.global;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,7 +1,7 @@
-package com.souciance.boot.emailapp.controller.controller;
+package com.souciance.boot.emailapp.controller;
 
-import com.souciance.boot.emailapp.controller.model.EmailModel;
-import com.souciance.boot.emailapp.controller.service.EmailService;
+import com.souciance.boot.emailapp.model.EmailModel;
+import com.souciance.boot.emailapp.service.EmailService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
