@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Author: <AUTHORNAME> -->
-<!-- Branch: <BRANCH> -->
-<!-- Committdate: <COMMITTERDATE> -->
-<!-- Commithash: <COMMITHASH> -->
-<!-- Commithash: <COMMITHASH> sdfsdfsdfsd-->
-<!-- Commithash: <COMMITHASH> sdfsdsdfsdffsd-->
+<!--350cc68 test stuff  -->
 <configuration>
-    <property name="LOG_PATH" value="F:/Local Disk E_12720131948/Development/camel/Spring Boot"/>
+    <property name="LOG_PATH" value="C:/temp"/>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
             <Pattern>
@@ -20,7 +15,7 @@
             <fileNamePattern>${LOG_PATH}/boot-%i.log.zip</fileNamePattern>
             <minIndex>1</minIndex>
             <maxIndex>10</maxIndex>
-        </rollingPolicy>
+        </rollingPolicy>cat
         <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
             <maxFileSize>1MB</maxFileSize>
         </triggeringPolicy>
@@ -29,7 +24,7 @@
         </encoder>
     </appender>
     <!-- Send logs to both console and file audit -->
-    <logger name="com.souciance123123.boot.senderemail" level="info" additivity="false">
+    <logger name="com.souciance.boot.emailapp" level="info" additivity="false">
         <appender-ref ref="FILE"/>
         <appender-ref ref="STDOUT"/>
     </logger>
